@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#ff0">
+
+    <TextView
+        android:textSize="25sp"
+        android:textColor="#ff00"
+        android:textStyle="bold"
+        android:text="Ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTen" />
+
+    <TextView
+        android:textColor="#000dff"
+        android:textSize="20sp"
+        android:text="Gia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewGia" />
+
+    <TextView
+        android:textSize="20sp"
+        android:text="So trang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewSoTrang" />
+
+    <TextView
+        android:textSize="20sp"
+        android:text="The loai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTheLoai" />
+</LinearLayout>
